@@ -1,3 +1,36 @@
+Metadata-Version: 2.2
+Name: sentiframe
+Version: 0.1.0
+Summary: A flexible framework for scraping and analyzing YouTube comments
+Home-page: https://github.com/yourusername/sentiframe
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: google-api-python-client>=2.108.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: web
+Requires-Dist: streamlit>=1.29.0; extra == "web"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Sentiframe
 
 A flexible framework for scraping and analyzing YouTube comments. This framework provides an easy-to-use interface for fetching comments and metadata from YouTube videos.
